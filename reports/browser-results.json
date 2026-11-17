@@ -1,0 +1,47 @@
+{
+  "navegador": "Chromium headless / Playwright",
+  "grupos_verificados": 14,
+  "anchuras": [
+    320,
+    375,
+    390,
+    430,
+    768,
+    1024,
+    1440
+  ],
+  "resultados": [
+    "Acceso general; selector con nombres sin apodos y video oculto",
+    "Selección por teclado, URL bajo /re-junte/ y foco en invitación",
+    "Texto aprobado completo y en orden; exactamente dos acciones finales",
+    "Siete anchuras: 320, 375, 390, 430, 768, 1024 y 1440; 14 capturas sin overflow",
+    "Aceptación, diálogo modal, Tab, Escape y restauración del foco",
+    "Negociación, resolución completa, cierre y foco",
+    "Cambio de nombre y navegación Atrás/Adelante con popstate",
+    "Los tres enlaces individuales, tildes y concordancia explícita",
+    "Identificador inválido recuperable sin pantalla vacía",
+    "prefers-reduced-motion: sin confeti ni animación",
+    "Inserción segura, apodo largo sin artículo y buscador con 53 invitados",
+    "Recurso decorativo fallido: contenido y selección disponibles",
+    "Video habilitado pero ausente: controles, error tolerado y omisión",
+    "Sin errores JavaScript ni cookies propias durante las interacciones"
+  ],
+  "capturas": [
+    "denegada-390.jpg",
+    "destino-390.jpg",
+    "invitacion-1024.jpg",
+    "invitacion-1440.jpg",
+    "invitacion-320.jpg",
+    "invitacion-375.jpg",
+    "invitacion-390.jpg",
+    "invitacion-430.jpg",
+    "invitacion-768.jpg",
+    "selector-1024.jpg",
+    "selector-1440.jpg",
+    "selector-320.jpg",
+    "selector-375.jpg",
+    "selector-390.jpg",
+    "selector-430.jpg",
+    "selector-768.jpg"
+  ]
+}

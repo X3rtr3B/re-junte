@@ -1,0 +1,2 @@
+OK: 3 invitados, IDs únicos, datos sincronizados, UTF-8 y 8 referencias locales.
+Aviso: URL pública pendiente; aún no se exportan enlaces definitivos.

@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#184a78">
+  <meta name="description" content="Nos volvemos a reunir. Re-junte · Compadres · 28 de enero de 2027 · Tarija, Bolivia.">
+  <meta property="og:title" content="Re-junte 2027 · Nos volvemos a reunir">
+  <meta property="og:description" content="Una convocatoria extraordinariamente seria para un reencuentro extraordinariamente necesario. Tarija · Compadres.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_BO">
+  <!-- PUBLIC_METADATA -->
+  <title>Re-junte 2027 · Compadres en Tarija</title>
+  <link rel="icon" href="assets/decorations/flor.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="data.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Saltar al contenido</a>
+  <header class="masthead">
+    <a class="brand" href="?" aria-label="Re-junte: volver a elegir nombre"><span class="brand-flower" aria-hidden="true">✳︎</span> RE-JUNTE<span class="brand-year"> / 2027</span></a>
+    <span class="masthead-note">COMITÉ DE ASUNTOS PENDIENTES <span aria-hidden="true">↗</span></span>
+  </header>
+  <main id="main">
+    <div id="notice" class="notice" role="status" hidden></div>
+    <section id="selector" aria-labelledby="selector-heading">
+      <div class="selector-grid">
+        <div class="cover">
+          <div class="eyebrow"><span class="little-dot" aria-hidden="true"></span> CONVOCATORIA EXTRAORDINARIA · <span class="event-year">2027</span></div>
+          <h1 class="cover-title" aria-label="Re-junte"><span>RE<span class="title-hyphen">–</span></span><span>JUNTE<span class="title-dot">.</span></span></h1>
+          <div class="cover-caption"><span class="scribble" aria-hidden="true">¡Ya toca!</span><p>Viejos compañeros.<br>Una nueva excusa.</p></div>
+          <img class="cover-ornament" src="assets/decorations/compadres.svg" width="360" height="300" alt="" aria-hidden="true">
+          <div class="cover-bottom"><span class="cover-star" aria-hidden="true">✴</span><p>Nos volvemos<br><strong>a reunir.</strong></p><span class="round-stamp" aria-hidden="true">DESDE 2023<br><b>YA ERA<br>HORA</b></span></div>
+        </div>
+        <div class="identity-panel">
+          <div class="panel-top"><span>EXPEDIENTE N.º 028/27</span><span aria-hidden="true">✳︎</span></div>
+          <div class="identity-intro"><span class="small-label">PRIMERO, LO PRIMERO</span><h2 id="selector-heading" tabindex="-1">¿QUIÉN <br>ERES<span>?</span></h2><p>Selecciona tu nombre para continuar.</p></div>
+          <label id="search-wrap" class="search-wrap" hidden>Buscar tu nombre<input id="guest-search" type="search" autocomplete="off" placeholder="Escribe aquí…"></label>
+          <div id="guest-list" class="guest-list" aria-label="Invitados"></div>
+          <p id="no-results" hidden>No encontramos ese nombre.</p>
+          <div class="panel-foot"><span aria-hidden="true">↳</span><p>Tu presencia es un asunto<br>de <em>interés colectivo.</em></p><span class="small-seal" aria-hidden="true">MUY<br>OFICIAL*</span></div>
+        </div>
+      </div>
+      <div class="date-strip"><span class="strip-city"><span aria-hidden="true">✳︎</span> <span data-event="ciudad">Tarija</span>, <span data-event="pais">Bolivia</span></span><span class="strip-date event-date">28 de enero de 2027</span><span class="strip-festivity" data-event="festividad">Compadres</span></div>
+    </section>
+
+    <article id="invitation" class="invitation" aria-labelledby="invite-title" hidden>
+      <div class="invitation-toolbar"><button id="change-guest" class="text-button" type="button">← CAMBIAR DE NOMBRE</button><span>NOTIFICACIÓN PERSONAL · <span class="event-year">2027</span></span></div>
+      <header class="invite-header"><div><div class="eyebrow">SE HACE SABER A LA PERSONA CONVOCADA</div><h1 id="invite-title" tabindex="-1">RE-JUNTE<span>.</span></h1></div><img src="assets/decorations/flor.svg" alt="" aria-hidden="true" width="120" height="120"></header>
+      <div class="invitation-grid">
+        <div class="summons-block"><p class="summons"><strong id="guest-name"></strong>, alias <strong id="guest-alias"></strong>, estás <strong>cordialmente <span id="guest-obligation"></span> a asistir</strong> <span id="invitation-copy"></span></p></div>
+        <aside class="event-card" aria-label="Datos del reencuentro"><span class="small-label">RESERVA LA FECHA</span><div class="calendar-number" id="event-day">28</div><span class="calendar-month" id="event-month">ENERO · 2027</span><div class="event-card-line"></div><p>📍 <strong data-event="ciudad">Tarija</strong></p><p>📅 <span class="event-date">28 de enero de 2027</span></p><p>🎉 <strong data-event="festividad">Compadres</strong></p><img src="assets/decorations/compadres.svg" alt="" aria-hidden="true" width="280" height="233"><span class="card-bottom">EL REENCUENTRO ES INEVITABLE.</span></aside>
+        <div class="letter">
+
+          <section id="video-panel" class="video-panel" aria-labelledby="video-heading" hidden>
+            <h2 id="video-heading">Un mensaje del comité</h2><p>Reprodúcelo si quieres. Tu invitación sigue aquí abajo.</p>
+            <video id="event-video" controls playsinline preload="none"><track id="video-captions" kind="captions" srclang="es" label="Español" default></video>
+            <p id="video-error" role="status" hidden>No se pudo cargar el video. Puedes seguir leyendo la invitación.</p>
+            <button id="skip-video" class="text-button" type="button">OMITIR Y SEGUIR LEYENDO ↓</button>
+          </section>
+          <p id="antecedents" tabindex="-1"></p>
+          <section class="sanction" aria-labelledby="sanction-label"><span id="sanction-label" class="small-label">CLÁUSULA DE INASISTENCIA</span><p>Que quieras asistir o no, no interesa. Y si faltas, deberás enviar tu aporte para <strong>tres bebidas espirituosas</strong> o pagar <strong>medio kilo de asado por cada uno de los que sí estaremos allí</strong>.</p><span class="sanction-mark" aria-hidden="true">SIN<br>EXCUSAS</span></section>
+          <p class="closing-copy"><span id="reserve-copy"></span><br><span id="details-copy"></span></p>
+          <p id="closing-line" class="closing-line"></p>
+          <p id="legal-copy" class="legal-copy"></p>
+          <div class="actions"><button id="accept" class="button button-coral" type="button">ACEPTO MI DESTINO <span aria-hidden="true">↗</span></button><button id="negotiate" class="button button-outline" type="button">INTENTAR NEGOCIAR <span aria-hidden="true">↗</span></button></div>
+          <p class="local-note">La respuesta se muestra solo en tu navegador. No se registra asistencia.</p>
+        </div>
+
+      </div>
+    </article>
+  </main>
+  <footer class="footer"><span>AMISTAD DE LARGA DATA. SERIEDAD CUESTIONABLE.</span><p>*Burocracia ficticia, amistad real. Sin validez jurídica.</p><details><summary>Sobre esta invitación</summary><p>Los nombres, apodos e identificadores son públicos. Los enlaces individuales personalizan la invitación y no son una forma de autenticación. No usamos analítica, cookies ni seguimiento propio. Las acciones no envían confirmaciones. El alojamiento puede mantener registros técnicos propios.</p></details></footer>
+  <dialog id="response-dialog" aria-labelledby="response-title" aria-describedby="response-body">
+    <div class="dialog-paper"><span id="dialog-symbol" class="dialog-symbol" aria-hidden="true">✳︎</span><span class="small-label">EL COMITÉ SE HA PRONUNCIADO</span><h2 id="response-title" tabindex="-1"></h2><div id="response-body"></div><button id="close-dialog" class="button" type="button"></button></div>
+  </dialog>
+  <div id="confetti" aria-hidden="true"></div>
+  <noscript><p class="notice">Activa JavaScript para elegir tu nombre y abrir la invitación. Re-junte: 28 de enero de 2027, Compadres, Tarija, Bolivia.</p></noscript>
+</body>
+</html>

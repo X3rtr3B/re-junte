@@ -1,0 +1,21 @@
+{
+  "titulo": "Re-junte",
+  "fecha": "2027-01-28",
+  "ciudad": "Tarija",
+  "pais": "Bolivia",
+  "festividad": "Compadres",
+  "repositorio": "re-junte",
+  "url_publica": "",
+  "video_habilitado": false,
+  "video_archivo": "assets/video/invitacion.mp4",
+  "video_subtitulos": "assets/video/subtitulos.vtt",
+  "opciones_visuales": {"animaciones": true, "confeti": true},
+  "texto": {
+    "convocatoria": "al reencuentro de quienes alguna vez compartimos crisis académicas y probablemente demasiadas horas juntos, al punto de ya no querer volver a vernos (al menos no en el futuro inmediato).",
+    "antecedentes": "Carnal, considerando los antecedentes académicos, la antigüedad de la amistad y la ausencia de reuniones colectivas desde 2023, ya toca un junte como corresponde.",
+    "reserva": "Reserva la fecha desde ahora.",
+    "detalles": "El resto de los detalles vendrá después.",
+    "cierre": "Nos volvemos a reunir.",
+    "aviso": "La presente notificación tiene carácter vinculante y podrá ser utilizada como evidencia de que usted fue debidamente informado/a."
+  }
+}

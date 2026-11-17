@@ -1,0 +1,51 @@
+[
+  {
+    "uso": "Párrafos",
+    "texto": "#25202a",
+    "fondo": "#fff3db",
+    "contraste": 14.48,
+    "minimo": 4.5
+  },
+  {
+    "uso": "Panel y botones de nombre",
+    "texto": "#fff3db",
+    "fondo": "#184a78",
+    "contraste": 8.34,
+    "minimo": 4.5
+  },
+  {
+    "uso": "Botón de aceptación",
+    "texto": "#171219",
+    "fondo": "#e94e3a",
+    "contraste": 4.94,
+    "minimo": 4.5
+  },
+  {
+    "uso": "Etiquetas doradas",
+    "texto": "#f4b942",
+    "fondo": "#184a78",
+    "contraste": 5.18,
+    "minimo": 4.5
+  },
+  {
+    "uso": "Nombre personalizado",
+    "texto": "#ac2b1e",
+    "fondo": "#fff3db",
+    "contraste": 6.12,
+    "minimo": 4.5
+  },
+  {
+    "uso": "Texto secundario",
+    "texto": "#625b57",
+    "fondo": "#fff3db",
+    "contraste": 6.06,
+    "minimo": 4.5
+  },
+  {
+    "uso": "Titulares coral grandes",
+    "texto": "#e94e3a",
+    "fondo": "#fff3db",
+    "contraste": 3.4,
+    "minimo": 3
+  }
+]
